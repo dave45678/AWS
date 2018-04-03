@@ -1,0 +1,15 @@
+# Introduction to AWS for Developers
+
+0. [Setting Up](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson0.md)
+1. [Create an AMI (Amazon Machine Instance) with LightSail](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson01.md)
+2. [Hosting a static web page](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson02.md)
+3. [Store files on an S3 bucket](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson03.md)
+4. [Upload a static site with CLI and S3](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson04.md)
+5. [Set up EC2 with IAM user and Virtual Private Cloud](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson05.md)
+6. [Set up a MySQL database with RDS and EC2](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson06.md)
+7. [Host an Angular Application](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson07.md)
+8. [Host a Spring Boot Application](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson08.md)
+9. [Install a Lamp server on an AMI](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson09.md)
+10. [Create and host a REST API with Lambda](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson10.md)
+11. [Host a Java EE application on Elastic Beanstalk](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson11.md)
+12. [Set up AWS IAM with Multi-Factor Authentication using AWS CLI](https://github.com/ajhenley/unofficialguides/blob/master/AWS_Developer/Lesson12.md)
