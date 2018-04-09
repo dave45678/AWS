@@ -66,7 +66,9 @@ First you will set up the database on AWS but you won't create any tables or add
 
 
 ### Create a database, add a table and add some data
+
 1. Run the following script to create a database
+
 
 ```sql
 use Lesson06;

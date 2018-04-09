@@ -90,6 +90,7 @@ A client error (UnauthorizedOperation) occurred when calling the DescribeRegions
 ```
 
 # What's Going On
+
 The reason this approach works is that the environment variables take precedence over the credentials configured in ~/.aws/credentials. Therefore, if the environment variables are not set one would default back to the non-MFA permissions – currently none, although this needn’t necessarily be the case.
 
 As for choosing a validity period of the token this would be a balance between risk and convenience. In my case I choose 4 hours as this allows me to work in the morning until lunch, then take out a new set of credentials in the afternoon. The chance of someone intercepting the temporary set of credentials and being able to use them before they expire is therefore reasonably low.

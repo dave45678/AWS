@@ -11,6 +11,7 @@ This tutorial assumes that you have already launched a new instance using the Am
 
 
 ### Prerequisite: Complete the following tasks set up for Amazon EC2
+
 1. Sign Up for AWS
 2. Create an IAM User called Administrator with administrative access
 3. Create a Key Pair
@@ -81,6 +82,7 @@ Apache httpd serves files that are kept in a directory called the Apache documen
 
 
 ### Set up MySQL
+
 1. ```sudo systemctl start mysqld```
 
 ```sudo systemctl status mysqld```

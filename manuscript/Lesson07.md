@@ -6,6 +6,7 @@
 ## The Walkthrough
 
 ### Enable Website Hosting on S3
+
 1. Sign in to the AWS Management Console and open the Amazon S3 console at ```https://console.aws.amazon.com/s3/```
 
 2. Create a bucket.
@@ -50,6 +51,7 @@
 	* Choose Add Bucket Policy.
 	* Copy the following bucket policy, and then paste it in the Bucket Policy Editor.
 
+	
 ```json
 {
    "Version":"2012-10-17",
@@ -64,6 +66,7 @@
    ]
  }
 ```
+
 	* In the policy, replace example-bucket with the name of your bucket.
 	* Choose Save.
 
@@ -88,6 +91,7 @@ If your browser displays your index.html page, the website was successfully depl
 ## What's Going On
 
 #### Configuring Index Document Support
+
 An index document is a webpage that Amazon S3 returns when a request is made to the website. If a user enters http://www.mysite.com in the browser, the user is not requesting any specific page. In that case, Amazon S3 returns the index document also known as the default page.
 When you configure your bucket as a website, provide the name of the index document. You then upload a file with this name and set it to be publicly readable.
 

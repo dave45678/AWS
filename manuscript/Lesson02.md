@@ -25,6 +25,7 @@ Be sure you have completed the following tasks from Lesson 0
 Because bucket names and objects are accessible via HTTP, they are perfect for hosting static websites
 
 ### Configure permissions for your bucket
+
 1. create the bucket
 2. use the AWS policy generator to create a JSON formatted policy for your bucket
 3. select the following settings:
@@ -82,6 +83,7 @@ http://example-bucket.s3-website-region.amazonaws.com/
 http://example-bucket.s3-website-region.amazonaws.com
 
 ### Upload files with the CLI
+
 1. install the CLI including your Access key etc…
 From the command prompt type the following:
 ```cmd
@@ -98,9 +100,11 @@ cp
 
 ```http://examplebucket.s3-website-us-west-2.amazonaws.com/```
 
+
 #### This URL requests the photo.jpg object, which is stored at the root level in the bucket.
 
 ```http://examplebucket.s3-website-us-east-1.amazonaws.com/photo.jpg```
+
 
 #### This URL requests the docs/doc1.html object in your bucket.
 
@@ -108,4 +112,6 @@ cp
 
 ## What's Going On
 
+
 ## Questions
+

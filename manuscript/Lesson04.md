@@ -65,8 +65,10 @@ http://example-bucket.s3-website-region.amazonaws.com
 If your browser displays your index.html page, the website was successfully deployed.
 
 ### Note
+
 HTTPS access to the website is not supported.
 You now have a website hosted on Amazon S3. This website is available at the Amazon S3 website endpoint. However, you might have a domain, such as example.com, that you want to use to serve the content from the website you created. You might also want to use Amazon S3 root domain support to serve requests for both
 
 ## What's Going On
+
 The software you are downloading are the things you will need to write, compile and deploy java applications from your own machine.

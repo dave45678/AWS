@@ -1,6 +1,7 @@
 # Lesson 08 - Host a Spring Boot Application
 
 ## Prerequisites
+
 * Set up the database in the previous lesson.
 
 
@@ -36,7 +37,7 @@ chmod 400 mykeyfile.pem
 6. You can now connect to the EC2 instance via terminal (command line). Use the ssh command that shows in the ‘Connect To Your Instance‘
 
 ```cmd
- ssh -i "mykeyfile.pem" ec2-user@ec2-**********.us-east-1.compute.amazonaws.com
+ssh -i "mykeyfile.pem" ec2-user@ec2-**********.us-east-1.compute.amazonaws.com
 ```
 
 7. It's probably a good idea to run the update command to get all the newest versions of packages and their dependencies.
