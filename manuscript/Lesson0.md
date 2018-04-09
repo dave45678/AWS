@@ -59,7 +59,7 @@ If you signed up for AWS but have not created an IAM user for yourself, you can 
 
 > You can use this same process to create more groups and users, and to give your users access to your AWS account resources. To learn about using policies to restrict users' permissions to specific AWS resources, go to Access Management and Example Policies.
 
-* To sign in as this new IAM user, sign out of the AWS console, then use the following URL, replace 123456789012 with your AWS account number (without the hyphens) ```https://123456789012.signin.aws.amazon.com/console/```
+* To sign in as this new IAM user, sign out of the AWS console, then use the following URL, replace 123456789012 with your AWS account number (without the hyphens) ```https://123456789012.signin.aws.amazon.com/console/ ```
 
 * Enter the IAM user name and password that you just created. When you're signed in, the navigation bar displays "your_user_name @ 1234-5678-9012".
 

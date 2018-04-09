@@ -106,7 +106,7 @@ Amazon VPC enables you to launch AWS resources into an isolated virtual network 
 
 #### To create a non-default VPC
 
-Open the Amazon VPC console at ```https://console.aws.amazon.com/vpc/```.
+Open the Amazon VPC console at ```https://console.aws.amazon.com/vpc/```
 
 From the navigation bar, select a region for the VPC. VPCs are specific to a region, so you should select the same region in which you created your key pair.
 
